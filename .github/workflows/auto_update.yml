@@ -30,4 +30,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploy to surge
-      run: surge ./build aqeelbcc1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ aqeelbcc1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
